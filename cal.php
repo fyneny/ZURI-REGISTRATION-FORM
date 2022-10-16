@@ -1,14 +1,14 @@
 <?php
-$name = $_GET['name'];
-$email =$_GET['email'];
-$birthday = $_GET['birthday'];
-$gender = $_GET['gender'];
-$country = $_GET['country'];
+$name = $_POST['name'];
+$email =$_POST['email'];
+$birthday = $_POST['birthday'];
+$gender = $_POST['gender'];
+$country = $_POST['country'];
 
 
-echo "<h2>Your Input:</h2>";
+echo "<h2>REGISTRATION FORM:</h2>";
 
-echo $fullname;
+echo $name;
 
 echo "<br>";
 
@@ -16,7 +16,7 @@ echo $email;
 
 echo "<br>";
 
-echo $dateofbirth;
+echo $birthday;
 
 echo "<br>";
 

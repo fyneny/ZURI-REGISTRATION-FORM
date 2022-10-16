@@ -7,7 +7,7 @@
     <title>Userdata</title>
 </head>
 <body>
-<form method="$_GET" action="cal.php">
+<form method="$_POST" action="user_data.csv">
      <div class="container">  
 
          <center>  <h1>Registeration Form</h1> </center>  
@@ -34,9 +34,9 @@
     
            </label><br>  
     
-           <input type="radio" value="Male" name="gender" checked > Male   
+           <input type="radio" value="Male" name="gender" > Male   
     
-            <input type="radio" value="Female" name="gender"> Female   
+            <input type="radio" value="Female" name="gender"  checked> Female   
     
             <input type="radio" value="Other" name="gender"> Other  
     
@@ -49,5 +49,6 @@
              <button type="submit" class="registerbtn">SUBMIT</button> <br>  
 
     </form>
+
 </body>
-</html>
+</html> 

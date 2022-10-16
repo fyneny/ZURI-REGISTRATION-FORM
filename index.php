@@ -44,7 +44,7 @@
              
              <label for="country"><b>Country</b></label>  
     
-             <input type="country" placeholder="Country" name="Country"> <br> <br> 
+             <input type="country" placeholder="Country" name="country"> <br> <br> 
     
              <button type="submit" class="registerbtn">SUBMIT</button> <br>  
 
